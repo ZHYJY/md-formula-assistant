@@ -1,5 +1,7 @@
 # 公式排版助手
 
+> English documentation: see [README.en.md](./README.en.md). English skill file: [SKILL.en.md](./SKILL.en.md) (name: *Formula Typeset Assistant*).
+
 把含数学公式的 Markdown 一键变成精美 **Word / PDF / HTML**。
 
 专治三大痛点：
@@ -14,8 +16,10 @@
 
 ```
 公式排版助手/
-├── SKILL.md              # 技能描述（给 AI 看的触发词 + 工作流）
-├── README.md             # 本文档
+├── SKILL.md              # 技能描述（给 AI 看的触发词 + 工作流）—— 中文版
+├── SKILL.en.md           # 英文版技能描述（name: Formula Typeset Assistant）
+├── README.md             # 本文档（中文）
+├── README.en.md          # 英文文档
 └── scripts/
     ├── make_docx.py        # Markdown -> Word（原生 OMML 公式）
     ├── make_katex_html.py  # Markdown -> KaTeX HTML
@@ -25,6 +29,8 @@
     ├── scan_katex.py       # 扫描 KaTeX 不支持的命令
     └── test_katex.js       # 用真实 KaTeX 引擎逐条验证渲染是否成功
 ```
+
+> **英文用户提示**：若希望把本仓库作为纯英文技能安装，可将 `SKILL.en.md` 复制为 `SKILL.md` 覆盖即可。
 
 ---
 
